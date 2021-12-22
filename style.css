@@ -1,0 +1,35 @@
+@charsetUFT "UFT-8";
+
+body{
+    background-image: linear-gradient(to right, violet,blue);
+}
+
+body{
+    padding: 10px;
+    margin: auto;
+    width: max-content;
+    border-radius: 20px; 
+}
+
+main{
+    background-color: white;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px rgba(34, 32, 32, 0.842);
+}
+
+img{
+    background-color: black;
+}
+
+p{
+    width: max-content;
+    padding: 10px;
+    background-color: white;
+     border-radius: 10%;
+     color: black;
+     box-shadow: 7px 7px 8px rgba(29, 28, 28, 0.63);
+     
+}
