@@ -1,5 +1,12 @@
 @charsetUFT "UFT-8";
 
+#principal{
+    background-color: black;
+    border-radius: 20px;
+    font-family: monospace;
+}
+
+
 body{
     background-image: linear-gradient(to right, violet,blue);
 }
@@ -20,8 +27,9 @@ main{
     box-shadow: 10px 15px 10px rgba(34, 32, 32, 0.842);
 }
 
-img{
+img:hover{
     background-color: black;
+    background-color: lightskyblue;
 }
 
 p{
@@ -32,5 +40,10 @@ p{
      border-style: double;
      color: black;
      box-shadow: 7px 7px 8px rgba(29, 28, 28, 0.63);
-     margin: auto;    
+     margin: auto;   
+}
+
+#principal > a:hover{
+    background-color: rgba(118, 148, 204, 0.925);
+    border-radius: 4px;
 }
