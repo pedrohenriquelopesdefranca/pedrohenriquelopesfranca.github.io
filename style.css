@@ -28,8 +28,8 @@ main{
 }
 
 img:hover{
-    background-color: black;
-    background-color: lightskyblue;
+    background-color: #9e9595;
+    background-color: #1e7eb9;
 }
 
 p{
@@ -39,11 +39,16 @@ p{
      border-radius: 8%;
      border-style: double;
      color: black;
-     box-shadow: 7px 7px 8px rgba(29, 28, 28, 0.63);
+     box-shadow: 7px 7px 8px #1d1c1ca1;
      margin: auto;   
 }
 
 #principal > a:hover{
-    background-color: rgba(118, 148, 204, 0.925);
+    background-color: #7694ccec;
     border-radius: 4px;
+}
+
+button{
+    border-radius: 100px;
+    background-color: lightskyblue;
 }
