@@ -1,4 +1,4 @@
-@charsetUFT "UFT-8";
+@charset "UFT-8";
 
 #principal{
     background-color: black;
@@ -28,7 +28,7 @@ main{
 }
 
 img:hover{
-    background-color: #9e9595;
+    
     background-color: #1e7eb9;
 }
 
